@@ -26,5 +26,5 @@ You can create a terrain in Unity, to provide a more interesting environment tha
 
 - Use the brush to paint trees onto your terrain.
 
-![trees added to the terrain](images/trees-terrain)
+![trees added to the terrain](images/trees-terrain.png)
 
