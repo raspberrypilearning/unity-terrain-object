@@ -1,59 +1,30 @@
-## Introduction
+## The Unity Terrain object
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can create a terrain in Unity, to provide a more interesting environment than a plane.
 
-### What you will make
+- Right click in the Hierarchy, select 3D object and then Terrain.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![terrain object selected from the 3D Object menu](images/create-terrain.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+- In the Inspector select the paint brush tool and then 'Raise or Lower Terrain' from the drop down.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+- You can raise the terrain by left clicking, or lower it by holding down shift and clicking. Changing brushes will change how the terrain is drawn.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+![showing the terrain object with different heights](images/terrain.png)
 
-+ A computer or tablet capable of running Scratch 3
+- Clicking on the gear icon, will allow you to add a material to your terrain.
 
-### Software
+![Grass material selected for the terrain](images/terrain-material.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+- Clicking on the tree icon will allow you to paint on trees. Click on the 'Edit Trees' button.
 
-### Downloads
+![edit trees button highlighted in inspector](images/edit-trees.png)
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+- Click on 'Add Tree' and in the window that opens use the circle button to add a tree from your assets.
 
---- /collapse ---
+![add tree button selected and a tree chosen](images/add-tree.png)
 
---- collapse ---
----
-title: What you will learn
----
+- Use the brush to paint trees onto your terrain.
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+![trees added to the terrain](images/trees-terrain)
 
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
