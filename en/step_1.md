@@ -28,3 +28,6 @@ You can create a terrain in Unity to provide a more interesting environment than
 
 ![Trees added to the terrain.](images/trees-terrain.png)
 
+Adding a large terrain can slow down the processing speed of the game. To reduce the size of your terrain GameObject, naviagate to the 'Mesh Resolution' component and change the width, length, and height values. 
+
+![The Mesh Resolution component with the Terrain Width, Terrain Length, and Terrain Height all set to '100'.](images/mesh-terrain.png)
