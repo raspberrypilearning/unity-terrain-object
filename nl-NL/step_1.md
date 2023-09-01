@@ -1,33 +1,33 @@
-## The Unity Terrain object
+## Het Unity Terrain-object
 
-You can create a terrain in Unity to provide a more interesting environment than a flat plane.
+Je kunt een terrein in Unity creëren om een interessantere omgeving te creëren dan een plat vlak.
 
-- Right-click in the Hierarchy window, select **3D Object** and then **Terrain**.
+- Klik met de rechtermuisknop in het Hierarchy venster, selecteer **3D-object** en vervolgens **Terrain**.
 
-![Terrain object selected from the 3D Object menu.](images/create-terrain.png)
+![Terrain object geselecteerd uit het 3D object menu.](images/create-terrain.png)
 
-- In the Inspector, select the paint brush tool and then **Raise or Lower Terrain** from the drop-down menu.
+- Selecteer in het infovenster het penseelgereedschap en vervolgens **Raise or Lower Terrain** in het vervolgkeuzemenu.
 
-- You can raise the terrain by left-clicking, or lower it by holding down shift and clicking. Changing brushes will change how the terrain is drawn.
+- Je kunt het terrein verhogen door met de linkermuisknop te klikken, of verlagen door Shift ingedrukt te houden en te klikken. Door van penseel te veranderen, verander je de manier waarop het terrein wordt getekend.
 
-![The terrain object with different heights.](images/terrain.png)
+![Het terrain object met verschillende hoogten.](images/terrain.png)
 
-- Clicking on the gear icon will allow you to add a material to your terrain.
+- Door op het tandwielpictogram te klikken kun je een materiaal aan je terrein toevoegen.
 
-![Grass material selected for the terrain.](images/terrain-material.png)
+![Gras materiaal geselecteerd voor het terrein.](images/terrain-material.png)
 
-- Clicking on the tree icon will allow you to paint trees onto your terrain. Click on the **Edit Trees** button.
+- Door op het pictogram van de boom te klikken kun je bomen op je terrein tekenen. Klik op de knop **Edit Trees**.
 
-![Edit trees button highlighted in the Inspector.](images/edit-trees.png)
+![De edit trees knop gemarkeerd in de Inspector.](images/edit-trees.png)
 
-- Click on **Add Tree** and in the window that opens use the circle button to add a tree from your assets.
+- Klik op **Add tree** en in het venster dat opent gebruik je de cirkelknop om een boom uit je assets toe te voegen.
 
-![Add tree button selected and a tree chosen.](images/add-tree.png)
+![Add tree knop geselecteerd en een boom geselecteerd.](images/add-tree.png)
 
-- Use the brush to paint trees onto your terrain.
+- Gebruik het penseel om bomen op je terrein te schilderen.
 
-![Trees added to the terrain.](images/trees-terrain.png)
+![Bomen toegevoegd aan het terrein.](images/trees-terrain.png)
 
-**Tip:** Adding a large terrain can slow down the processing speed of the game. To reduce the size of your terrain GameObject, navigate to the 'Mesh Resolution' component and change the width, length, and height values.
+**Tip:** Het toevoegen van een groot terrein kan de verwerkingssnelheid van het spel vertragen. Om de grootte van je terrain GameObject te verkleinen, ga je naar de component 'Mesh Resolution' en wijzig je de waarden voor breedte (width), lengte (length) en hoogte (height).
 
-![The Mesh Resolution component with the Terrain Width, Terrain Length, and Terrain Height all set to '100'.](images/mesh-terrain.png)
+![De Mesh resolution component met de Terrain breedte, lengte en de hoogte allemaal ingesteld op '100'.](images/mesh-terrain.png)
