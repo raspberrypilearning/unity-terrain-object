@@ -1,33 +1,33 @@
-## The Unity Terrain object
+## L'objet Terrain d'Unity
 
-You can create a terrain in Unity to provide a more interesting environment than a flat plane.
+Tu peux créer un terrain dans Unity pour offrir un environnement plus intéressant qu'un plan plat.
 
-- Right-click in the Hierarchy window, select **3D Object** and then **Terrain**.
+- Fais un clic droit dans la fenêtre Hierarchy, sélectionne **3D Object** puis **Terrain**.
 
-![Terrain object selected from the 3D Object menu.](images/create-terrain.png)
+![Objet terrain sélectionné dans le menu 3D Object.](images/create-terrain.png)
 
-- In the Inspector, select the paint brush tool and then **Raise or Lower Terrain** from the drop-down menu.
+- Dans l'Inspector, sélectionne l'outil pinceau puis **Raise or Lower Terrain** dans le menu déroulant.
 
-- You can raise the terrain by left-clicking, or lower it by holding down shift and clicking. Changing brushes will change how the terrain is drawn.
+- Tu peux élever le terrain en faisait un clic gauche sur ta souris, ou l'abaisser en maintenant la touche Shift enfoncée et en cliquant. Le fait de changer de pinceau modifie la façon dont le terrain est dessiné.
 
-![The terrain object with different heights.](images/terrain.png)
+![L'objet terrain avec différentes hauteurs.](images/terrain.png)
 
-- Clicking on the gear icon will allow you to add a material to your terrain.
+- En cliquant sur l'icône en forme d'engrenage, tu pourras ajouter un matériau à ton terrain.
 
-![Grass material selected for the terrain.](images/terrain-material.png)
+![Matériau herbe sélectionné pour le terrain.](images/terrain-material.png)
 
-- Clicking on the tree icon will allow you to paint trees onto your terrain. Click on the **Edit Trees** button.
+- En cliquant sur l'icône Arbre, tu pourras peindre des arbres sur ton terrain. Clique sur le bouton **Edit Trees**.
 
-![Edit trees button highlighted in the Inspector.](images/edit-trees.png)
+![Le bouton Edit Trees mis en évidence dans l'Inspector.](images/edit-trees.png)
 
-- Click on **Add Tree** and in the window that opens use the circle button to add a tree from your assets.
+- Clique sur **Add Tree** et dans la fenêtre qui s'ouvre, utilise le bouton cercle pour ajouter un arbre à partir de tes ressources.
 
-![Add tree button selected and a tree chosen.](images/add-tree.png)
+![Bouton Add Tree sélectionné et arbre choisi.](images/add-tree.png)
 
-- Use the brush to paint trees onto your terrain.
+- Utilise le pinceau pour peindre des arbres sur ton terrain.
 
-![Trees added to the terrain.](images/trees-terrain.png)
+![Arbres ajoutés au terrain.](images/trees-terrain.png)
 
-**Tip:** Adding a large terrain can slow down the processing speed of the game. To reduce the size of your terrain GameObject, navigate to the 'Mesh Resolution' component and change the width, length, and height values.
+**Astuce :** l'ajout d'un grand terrain peut ralentir la vitesse de traitement du jeu. Pour réduire la taille de ton GameObject terrain, va dans « Mesh Resolution » et modifie les valeurs de largeur (width), de longueur (length) et de hauteur (height).
 
-![The Mesh Resolution component with the Terrain Width, Terrain Length, and Terrain Height all set to '100'.](images/mesh-terrain.png)
+![Le composant Mesh Resolution avec la largeur, la longueur et la hauteur du terrain réglées sur « 100 ».](images/mesh-terrain.png)
